@@ -9,11 +9,10 @@ function InputBox({
     selectCurrency = "usd",
     amountDisable = false,
     currencyDisable = false,
-    className = "",
 }) {
     const amountInputId = useId(); // gives random unique string.  
     return (
-        <div className={`bg-white  p-3 rounded-lg text-sm w-full flex justify-center ${className}`}>
+        <div className={`bg-white  p-3 rounded-lg text-sm w-full flex justify-center`}>
             <div className="w-1/2">
                 <label
                     htmlFor={amountInputId}
